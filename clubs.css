@@ -16,21 +16,7 @@ main{
     align-items: center;
     flex-direction: column;
 }
-/*header*/
-nav{
-    display: flex;
-   justify-content: space-between;
-   
-}
-.head{
-    margin-left: 10%;
-    margin-top: 40px;
-}
-nav a{
-    text-decoration: none;
-    color: floralwhite;
-    margin-left: 15px;
-}
+
 .color{
     background-color: rgb(220, 20, 153);
     color: floralwhite;
@@ -103,7 +89,8 @@ nav a{
     margin-left: 15px;
     margin-top: 15px;
 }
-/*Bonous part*/
+/*Bonous part
+--------------*/
 .bonous{
     margin-top: 40px;
     display: grid;
@@ -124,7 +111,7 @@ nav a{
     color: black;
 }
 
-
+/* info*/
 .info{
     width: 400px;
     height: 250px;
@@ -145,4 +132,28 @@ nav a{
 }
 .copy h3{
     margin-left: 100px;
+}
+/*media query using responsive wev*/
+@media only screen and (max-width: 688px){
+    .all-banner{
+        width: 688px;
+        height: 1000px;
+    }
+    .banner, .players, .bonous, .all-banner{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    
+    
+    .banner-title1{
+        width: 600px;
+        height: 400px;
+        justify-content: center;
+    }
+
+.bonous{
+    width: 100%;
+    height: 100%;
+}
+
 }
