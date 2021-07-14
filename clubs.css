@@ -124,4 +124,25 @@ nav a{
     color: black;
 }
 
-/*web info*/
+
+.info{
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.boll img{
+    width: 400px;
+}
+.icons{
+    display: flex;
+    
+    margin-left: 150px;
+}
+.icons div{
+    margin-left: 19px;
+}
+.copy h3{
+    margin-left: 100px;
+}
